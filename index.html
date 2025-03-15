@@ -87,6 +87,30 @@
     color: white; 
     font-weight: bold;
 }
+
+@media (max-width: 768px) {
+    .carousel-inner img {
+        height: 300px; 
+        object-fit: cover; 
+        border-radius: 15px; 
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        width: 30px; 
+        height: 30px;
+    }
+
+    .carousel-indicators {
+        bottom: -10px; 
+    }
+
+    .carousel-indicators button {
+        width: 8px; 
+        height: 8px;
+        background-color: rgb(214, 41, 93); 
+    }
+}
 </style>
 
 </head>
